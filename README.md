@@ -55,7 +55,6 @@ Key stages in the pipeline include data preprocessing, data augmentation, model 
 git clone https://github.com/sohelkureshi/DermAI_SkinCare.git
 cd DermAI_SkinCare
 
-text
 
 #### 2. Prepare Your Data
 
@@ -68,7 +67,7 @@ Install required Python libraries:
 
 pip install -r requirements.txt
 
-text
+
 
 _Key dependencies_: `numpy`, `matplotlib`, `seaborn`, `opencv-python`, `scikit-learn`, `tensorflow`, `keras`, `tqdm`
 
@@ -78,7 +77,7 @@ Run:
 
 python preprocessing.py
 
-text
+
 
 - Loads, preprocesses, and splits the dataset into train/validation/test sets.
 - Serializes splits as pickle files for later stages.
@@ -89,25 +88,24 @@ To balance classes:
 
 python augmentation.py
 
-text
 
 #### 6. Train the Model
 
 python model.py
 
-text
+
 
 #### 7. Evaluate the Model
 
 python evaluate.py
 
-text
+
 
 #### 8. Predict on New Images
 
 python predict.py --image new_image.jpg
 
-text
+
 
 ---
 
@@ -136,3 +134,4 @@ Thanks to the open-source Python and machine learning community!
 ### License
 
 This project is open source and available under the MIT License.
+
